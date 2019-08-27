@@ -1,5 +1,4 @@
 # Age Estimation From Facial Parts Using Compact Multi-Stream Convolutional Neural Networks
-Source code of age estimation experiments as given in paper: "".
 
 This repository contains the source code of age estimation experiments, as given in paper:
 
