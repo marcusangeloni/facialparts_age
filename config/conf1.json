@@ -1,0 +1,18 @@
+{
+    "eyebrows":{
+        "width":228,
+        "height":33
+    },
+    "eyes":{
+        "width":202,
+        "height":38
+    },
+    "nose":{
+        "width":103,
+        "height":73
+    },
+    "mouth":{
+        "width":114,
+        "height":66
+    }
+}
