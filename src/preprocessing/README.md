@@ -1,3 +1,20 @@
+# Run preprocess to generate facial parts images
+Please, unzip the landmarks_openface_aligned.zip and update the directory of your dataset in adience_negative_list.txt. These landmarks were generated using https://github.com/TadasBaltrusaitis/OpenFace/tree/OpenFace_v2.0.0 toolkit.
+
+Install dlib (Python) - http://dlib.net/face_landmark_detection.py.html
+
+Get the trained model file from: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2.
+
+So, run the preprocess script:
+
+```bash
+python adience-preprocessing.py \
+/home/marcus/dlib_model/shape_predictor_68_face_landmarks.dat \
+/home/marcus/db/adience-aligned \
+/home/marcus/landmarks_openface_aligned \
+/home/marcus/adience-parts-iccvw
+```
+
 # Create TFRecords with train and val sets
 
 ```bash
