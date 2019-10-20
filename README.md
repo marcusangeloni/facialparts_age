@@ -15,3 +15,10 @@ month={Nov},
 year={2019}
 }
 ```
+
+- [Pre-process](./src/preprocessing),
+- [Train/Test](./src/classification)
+
+ 
+
+ 
